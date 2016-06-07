@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/joelibaceta/mp-sdk-ruby.git
-  revision: a4999c84297fc2fc42cf55a47b7cdda7ade1b95c
+  revision: 096ba1db6992326be42ffd1822ebdbb318fdac30
   specs:
     mercadopago (1.0.0)
       activesupport
@@ -32,8 +32,6 @@ GEM
     json (1.8.3)
     launchy (2.4.3)
       addressable (~> 2.3)
-    mercadopago-sdk (0.3.4)
-      json
     mime-types (1.25.1)
     minitest (5.9.0)
     multi_json (1.11.2)
@@ -64,8 +62,7 @@ DEPENDENCIES
   heroku (~> 3.8.2)
   httparty
   json
-  mercadopago!
-  mercadopago-sdk
+  mercadopago (~> 1.0.0)!
   rack-test
   sinatra
 

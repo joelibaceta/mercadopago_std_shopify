@@ -5,9 +5,9 @@ gem 'sinatra'
 gem 'httparty'
 gem 'json'
 gem 'addressable'
-gem 'mercadopago-sdk'
+#gem 'mercadopago-sdk'
 
-gem 'mercadopago', github: 'joelibaceta/mp-sdk-ruby'
+gem 'mercadopago', '~> 1.0.0', github: 'joelibaceta/mp-sdk-ruby'
 
 
 group :test do
